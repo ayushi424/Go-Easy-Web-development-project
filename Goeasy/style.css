@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Arial;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(21.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(22.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(119, 111, 111, 0.75),rgba(134, 131, 131, 0.75)),url(23.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner4{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(18.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner6{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(15.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* loginhome.php */
+.banner7{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(14.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 65%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left:10%;
+    
+    /* cursor: progress; */
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 40px;
+    animation: textanimation 1s ease-in-out;
+}
+@keyframes textanimation{
+    0%{
+        letter-spacing: 20px;
+    }
+    100% {
+        letter-spacing: 1px;
+    }
+}
+.content p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    animation: textanimation2 1s ease-in-out;
+}
+@keyframes textanimation{
+    0%{
+        transform: scale(0)
+    }
+    100% {
+        letter-spacing: 1px;
+    }
+}
+.content1{
+    width: 100%;
+    position: absolute;
+    top: 110%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: rgb(27, 81, 230);
+}
+.content1 h1{
+    font-size: 50px;
+    margin-top: 40px;
+}
+.content1 p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius:25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+
