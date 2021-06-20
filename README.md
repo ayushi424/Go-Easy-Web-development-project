@@ -9,6 +9,7 @@ The main aim is to bridge the gap between buyers and sellers by using an online 
 After successful submission of the form its data fields will be stored in our database automatically.
 
 After which they will be communicated by best deals available for them.
+
 **Technologies used**
 
 For Frontend-HTML,CSS & Bootstrap
@@ -17,4 +18,6 @@ For backend-MySQL Database (For storing data and retreiving them as required)
 
 For frontend-backend integration-PHP
 
+**Project Report**
 
+To view the project report [Click here](https://github.com/ayushi424/Go-Easy-Web-development-project/blob/main/Go%20easy%20project%20report.pdf)
